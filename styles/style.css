@@ -110,6 +110,45 @@ nav ul li{
 }
 
 
+
+
+
+
+/* contact */
+.contact-head{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    height: 632px;
+    width: 1140px;
+    gap: 115px;
+    padding: 71px 150px;
+    margin: 90px;
+}
+
+.form{
+    font-size: 18px;
+    font-weight: bold;
+    height: 102px;
+    width: 497px;
+    gap: 19px;
+    padding: 32px 0px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 492px;
+}
+
+textarea{
+    width: 492px;;
+}
 /* footer */
 
 .footer{
@@ -123,7 +162,6 @@ nav ul li{
 
 .footer-main{
     padding: 0;
-    gap: 20px;
 }
 .footer-logo{
     font-size: 100px;
