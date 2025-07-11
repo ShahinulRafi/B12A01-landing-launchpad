@@ -13,6 +13,7 @@
   font-weight: 200;
   font-style: normal;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -55,20 +56,29 @@ nav ul li{
     color: #252432;
 }
 
+
+/* Main Body */
+main{
+    background-color: #8c89f620;
+}
+
 .about{
     display: flex;
-    margin: 148px;
+    margin: 0px 148px 0px;
+    padding: 116px 0px 116px;
 }
 
 .action{
     font-size: 42px;
     font-weight: bold;
+    padding: 62.5px 220px 62.5px 0px;
 }
 
 .action-details{
     font-size: 24px;
     color: #252432;
     opacity: 50%;
+    width: 517px;
 }
 
 /* User Section */
@@ -144,10 +154,20 @@ nav ul li{
 input[type="text"]{
     height: 50px;
     width: 492px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block;
+    border: none;
 }
 
 textarea{
-    width: 492px;;
+    width: 492px;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border-radius: 5px;
+    display: block;
+    border: none;
 }
 /* footer */
 
