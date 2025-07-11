@@ -73,6 +73,7 @@ nav ul li{
 
 /* User Section */
 .user-title{
+    text-align: center;
     font-size: 38px;
     font-weight: bold;
     color: #252432;
@@ -89,3 +90,60 @@ nav ul li{
     color: #252432;
     opacity: 50%;
 }
+
+.user{
+    background-color: #4E47FF1A;
+    padding: 50px 80px;
+    margin: 141px 159px;
+    width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+/* .user-info{
+    padding: 50px 142px;
+} */
+
+.user-all-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* footer */
+
+.footer{
+    padding: 50px;
+    text-align: center;
+    width: 531px;
+    height: 221px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-main{
+    padding: 0;
+    gap: 20px;
+}
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+}
+.footer-text{
+    text-align: center;
+    color: #8987a1;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #8987a1;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
