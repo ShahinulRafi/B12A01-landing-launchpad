@@ -48,4 +48,8 @@ nav ul li{
     font-size: 65px;
     font-weight: bold;
     color: #252432;
+    text-decoration: none;
+}
+h4 {
+  text-decoration: none !important;
 }
