@@ -95,8 +95,8 @@ main {
 
 /* review */
 .review-section {
-    width: 1140px;
-    height: 342px;
+    /* width: 1140px;
+    height: 342px; */
     gap: 50px;
     margin: 137px 149px 137px 151px;
 }
@@ -108,10 +108,9 @@ main {
 
 .reviews {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    width: 1140px;
-    
+    justify-content: space-evenly;
+    gap: 20px;
+    /* width: 1140px; */
 }
 
 .review {
